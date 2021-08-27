@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>VSCode Theme Tutorial</title>
+</head>
+
+<body>
+
+
+  
+
+<div class="hero">
+  <div class="text">
+    <h1>VSCode Theme Tutorial</h1>
+    <p>in only 12 steps!</p>
+  </div>
+</div>
+
+<!-- <div class="main">
+<h3>itty bitty things to notice:</h3>
+<p>
+  <ul>
+    <li>
+      idk if everything is going to work on mac ive never tested it but you can try it anyway if u want
+    </li>
+    <li>
+      this isnt a great method if you want to continually update your site. its more of just if you want to get it up and running quickly. 
+    </li>
+    <li>
+      if you do want to update your site often, i recommend installing the <a href="https://desktop.github.com/"><strong>github desktop app</strong></a> and watching a youtube video on setting it up. the desktop app will sync live changes but i personally find it to be kinda confusing. i'll try to make a tutorial on that one day...
+    </li>
+  </ul>
+</p>
+</div> -->
+
+
+
+
+
+<br><br><br>
+
+<div class="tab">
+  <button class="tablinks" 
+  onclick="openCity(event, 's1')" id="defaultOpen">Step 1 - Download Node.js
+  </button>
+
+  <button class="tablinks" 
+  onclick="openCity(event, 's2')">Step 2 - Get a Theme
+  </button>
+
+    <button class="tablinks" 
+    onclick="openCity(event, 's3')">Step 3 - Download Theme [P1]
+  </button>
+
+    <button class="tablinks" 
+    onclick="openCity(event, 's4')">Step 4 - Download Theme [P2]
+  </button>
+
+    <button class="tablinks" 
+    onclick="openCity(event, 's5')">Step 5 - Install Yo Code
+  </button>
+
+    <button class="tablinks" 
+    onclick="openCity(event, 's6')">Step 6 - Run Yo Code
+  </button>
+
+    <button class="tablinks" 
+    onclick="openCity(event, 's7')">Step 7 - Yo Code Options
+  </button>
+
+  <button class="tablinks" 
+    onclick="openCity(event, 's8')">Step 8 - Go to Extension Folder
+  </button>
+  <button class="tablinks" 
+    onclick="openCity(event, 's9')">Step 9 - Copy/Paste Theme [P1]
+  </button>
+  <button class="tablinks" 
+    onclick="openCity(event, 's10')">Step 10 - Copy/Paste Theme [P2]
+  </button>
+  <button class="tablinks" 
+    onclick="openCity(event, 's11')">Step 11 - Run your Theme
+  </button>
+  <button class="tablinks" 
+    onclick="openCity(event, 's12')">Step 12 - Enjoy your Theme :D
+  </button>
+
+
+</div>
+      
+<div id="s1" class="tabcontent">
+  <div class="row">
+    <div class="column2">
+      <h3>Step 1 - Download Node.js</h3>
+      <p>Download Node.js at <a href="https://nodejs.org/en/"><strong>nodejs.org</strong></a> (if you don't have it installed already)
+      <br><br>
+      btw its the big green button, specifically the recommended one. it usually has less bugs than the latest version.
+      <br><br>
+
+      </p>
+    </div>
+    <div class="column">
+      <img src="img/big green button.PNG" alt="">
+    </div>
+  </div>
+</div>
+        
+<div id="s2" class="tabcontent">
+  <div class="row">
+    <div class="column2">
+      <h3>Step 2 - Find your Theme</h3>
+      <p>
+        Go to this wonderful website <a href="https://themes.vscode.one/"><strong>themes.vscode.one</strong></a> and scroll to find the theme you want. You can also make your own custom theme with this website if u want but im not showing you how to do that lol. 
+        <br><br>
+        <strong>Make sure to make an account or sign in with Google/Github. You will need that later</strong>
+
+      </p>
+    </div>
+    <div class="column">
+      <img src="img/hmm what to choose.PNG" alt="">
+    </div>
+  </div>
+</div>
+
+<div id="s3" class="tabcontent">
+  <div class="row">
+    <div class="column2">
+      <h3>Step 3 - Download your Theme [Part 1]</h3>
+      <p>
+        Once you find the one your favorite one, click on the "Fork" button. This will make it appear in the "Your Themes" tab.
+      
+      </p>
+    </div>
+    <div class="column">
+      <img src="img/me likey.PNG" alt="">
+    </div>
+  </div>
+</div>
+
+<div id="s4" class="tabcontent">
+  <div class="row">
+    <div class="column2">
+      <h3>Step 4 - Download your Theme [Part 2]</h3>
+      <p>
+        Go to the "Your Themes" tab and click the download button on your theme. (the download button is the second button)
+      
+      </p>
+    </div>
+    <div class="column">
+      <img src="img/to the left clicky.PNG" alt="">
+      <img src="img/download it now.PNG" alt="">
+    </div>
+  </div>
+</div>
+
+<div id="s5" class="tabcontent">
+  <div class="row">
+  <div class="column2">
+    <h3>Step 5 - Install Yo Code</h3>
+    <p>
+      Make a new folder and open it in VSCode and open a new terminal (New Terminal Shortcut: Ctrl + `). 
+      <br><br>
+      Then type this into the terminal:
+      <br>
+      <code>npm install -g yo generator-code</code>
+      <br><br>
+      Give it a few mins to install and it should look like the picture when its done.
+    </p>
+  </div>
+  <div class="column">
+    <img src="img/yo code installed.PNG" alt="">
+  </div>
+</div>
+</div>
+
+<div id="s6" class="tabcontent">
+  <div class="row">
+  <div class="column2">
+    <h3>Step 6 - Run Yo Code</h3>
+    <p>
+       Now that we have it installed, type this into the terminal:
+       <br>
+       <code>yo code</code>
+
+    </p>
+  </div>
+  <div class="column">
+    <img src="img/yo code.PNG" alt="">
+  </div>
+</div>
+</div>
+
+<div id="s7" class="tabcontent">
+  <div class="row">
+  <div class="column2">
+    <h3>Step 7 - Yo Code Options</h3>
+    <p>
+      Use the arrow keys and the enter button to make selections and choose these options:
+
+      <br><br>
+      
+
+      <u>Extension:</u> <strong>New Color Theme</strong><br>
+      <u>Import/Export:</u> <strong>No, start fresh</strong><br>
+      <u>Name:</u> (make it whatever u want it don't matter)<br>
+      <u>Identifier:</u> (just press enter on whatevers there)<br>
+      <u>Description:</u> (make it whatever u want it don't matter)<br>
+      <u>Name to user:</u> (i guess make it match the name but i don't think it matters)<br>
+      <u>Base Theme:</u> (choose the one that matches closest to your theme but i don't think it matters too much)<br>
+      <u>Initiate:</u> <strong>y</strong>
+
+      <br><br>
+
+      It should look similar to the image when its all done
+    
+    </p>
+  </div>
+  <div class="column">
+    <img src="img/yay it did thing.PNG" alt="">
+  </div>
+</div>
+</div>
+
+<div id="s8" class="tabcontent">
+  <div class="row">
+  <div class="column2">
+    <h3>Step 8 - Go to your Extension Folder</h3>
+    <p>
+    Type this in the terminal:
+    <br>
+    <code>cd (the name of your extension)</code>
+    <br><br>
+    Then type this:
+    <br>
+    <code>code.</code>
+
+    <br><br>
+
+    This should open a new vscode window like what you see in the second image
+
+
+    </p>
+  </div>
+  <div class="column">
+    <img src="img/this will make a new window.PNG" alt="">
+    <img src="img/new window.PNG" alt="">
+  </div>
+</div>
+</div>
+
+<div id="s9" class="tabcontent">
+  <div class="row">
+  <div class="column2">
+    <h3>Step 9 - Copy/Paste your Theme [Part 1]</h3>
+    <p>
+    Open the theme file you downloaded <br><br>
+    Press <strong>Ctrl + A</strong> and then <strong>Ctrl + C</strong>
+    </p>
+  </div>
+  <div class="column">
+    <img src="img/ctrl a.PNG" alt="">
+  </div>
+</div>
+</div>
+
+<div id="s10" class="tabcontent">
+  <div class="row">
+  <div class="column2">
+    <h3>Step 10 - Copy/Paste your Theme [Part 2]</h3>
+    <p>
+      Then go to your VSCode folder for your extension that we just opened and under the "themes" folder<br><br>
+      open a file ending in "-color-theme.json" <br><br>
+      Press <strong>Ctrl + A</strong> then <strong>Ctrl + V</strong> then <Strong>Ctrl + S</Strong>
+    </p>
+  </div>
+  <div class="column">
+    <img src="img/find file.PNG" alt="">
+  </div>
+</div>
+</div>
+
+<div id="s11" class="tabcontent">
+  <div class="row">
+  <div class="column2">
+    <h3>Step 11 - Run your Theme</h3>
+    <p>
+    Look for the ".vscode" folder and click a file called "launch.json" <br><br>
+    Go to the "Run and Debug" tab on the far left <br><br>
+    Click the green arrow 
+    </p>
+  </div>
+  <div class="column">
+    <img src="img/clicky launch.PNG" alt="">
+    <img src="img/clicky run.PNG" alt="">
+  </div>
+</div>
+</div>
+
+<div id="s12" class="tabcontent">
+  <div class="row">
+  <div class="column2">
+    <h3>Step 12 - Enjoy your Theme :D</h3>
+    <p>
+    Yay now it works you did it!!!! <br>
+    Look at you using your brain! <br>
+    You did great!
+    </p>
+  </div>
+  <div class="column">
+    <img src="img/now we cool heheh.PNG" alt="">
+  </div>
+</div>
+</div>
+      
+
+</div>
+
+
+</body>
+
+<script>
+  function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+</html>
